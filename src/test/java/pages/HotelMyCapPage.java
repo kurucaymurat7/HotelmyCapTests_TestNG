@@ -15,4 +15,7 @@ public class HotelMyCapPage {
 
     @FindBy (id = "UserName")
     public WebElement userName;
+
+    @FindBy (xpath = "//*[text()='Username or password is incorrect, please correct them and try again']")
+    public WebElement girisYapilamadi;
 }
